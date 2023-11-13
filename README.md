@@ -1,27 +1,21 @@
-# React + TypeScript + Vite
+# Todo Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Introduction
+Welcome to the Todo Web App, a simple yet powerful tool to manage your daily tasks efficiently. Built with React, this application offers a user-friendly interface for task management while leveraging local storage to save your todos. Experience the convenience of adding, completing, and deleting tasks with ease.
 
-Currently, two official plugins are available:
+## Features
+- **Create Tasks**: Easily add new tasks to your todo list.
+- **Task Counter**: The app displays the total number of tasks you've created.
+- **Mark as Completed**: Click on a task to mark it as completed, keeping track of your progress.
+- **Delete Tasks**: Remove tasks that are no longer needed.
+- **Local Storage**: All tasks are saved in your browser's local storage, ensuring your data is always accessible.
+- **No Task Message**: When there are no tasks, the app displays a "No todos found" message.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Usage
+1. **Add a Task**: Click the 'Create' button to enter a new task.
+2. **Complete a Task**: Click the Circle icon near the task to mark it as completed.
+3. **Delete a Task**: Click the Trash icon to remove the task.
+4. **View Tasks**: The homepage displays all current tasks and their status.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Demo
+Try out the Todo Web App: [Live Demo](https://react-todoapp-localstorage.netlify.app/)
