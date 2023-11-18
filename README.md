@@ -18,4 +18,4 @@ Welcome to the Todo Web App, a simple yet powerful tool to manage your daily tas
 4. **View Tasks**: The homepage displays all current tasks and their status.
 
 ## Demo
-Try out the Todo Web App: [Todo App](https://react-todoapp-localstorage.netlify.app/)
+Try out the [Todo Web App](https://react-todoapp-localstorage.netlify.app/)
